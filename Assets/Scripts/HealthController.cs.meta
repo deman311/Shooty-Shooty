@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 078b33ec2d426a048a1a89e050f6f8bd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - deadBlue: {fileID: 9154619637039476777, guid: 72e0d1eb81cedf44aabcc365d470d996,
+      type: 3}
+  - deadRed: {fileID: 9010191779978346139, guid: cd79a0c717ccd9b44b0e69f92f65b22f,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
