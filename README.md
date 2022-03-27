@@ -10,6 +10,8 @@ So the setting of the project was pretty simplistic, we had to create two teams 
 and your team 🟦, obviously anyone other than yourself is an NPC. At the start of each round, the are guns and granades spawned on the level and
 each 'contestant' has to pick both of them up before he can start shooting. The first team to eliminate the other team wins 🏆.
 
+![START](/git_assets/start.gif "Game start")
+
 ## Development
 ### Map 🗻
 I've first started with creating the map, I decided I'm going to create an outside setting arena and use a trick where I encircle it with mountains so
@@ -19,7 +21,7 @@ add to this map, because it is an FPS game I though of things I can add that you
 I created them and filled the map with some of them I thought the map started to look like a construction or garbage disposal zone and I liked the idea so
 I added some garbage hills and it looked great! 🤩
 
-[MAP VIEW] -> TBA MEDIA
+![MAP VIEW](/git_assets/mapview.gif "Map showcase")
 
 ### Models 🤼‍♂️
 Because I wanted everything to be pretty simplistic so that it won't take too much time, I decided I'm going to make the models very basic with a body
@@ -27,14 +29,14 @@ obviously, head for headshots and hands to hold the weapons. Most complete 3d mo
 I created some basic animations and found a cool gun model for free and set down to create all the animations I'm going to need. After completing the gun
 model and setting up all of the initial positions, various testings, I came up with the idea to add some visual effects like ricochets.
 
-[MODEL VIEW] [ANIMATION GIF]
+![MODEL VIEW](/git_assets/models.png "the models") ![ANIMATION GIF](/git_assets/die.gif "death animation")
 
 ### Effects 🟤❇️🩸
 In this part I started with writing all the calculations and Debug (i.e., Pathfinding lines, Fire lines, Hit points, etc...). I created 2 different
 effects: one for when you shoot the ground that looks like dust and dirt flying off and another when you hit an object that looks like sparkles. 
 After that I also added a blood spilling effect for when you hit the player. All of this really added to the immersion and I liked it!
 
-[DIRT SPARKLE BLOOD]
+![DUST](/git_assets/dust.gif "Dust off") ![SPARKLE](/git_assets/sparkle.gif "Sparkle")
 
 ### NPC AI 🧠
 So for the last part I kind of skipped explaining the section where I had to calculate bullet direction, hitboxes, recoil etc... but it also took a couple
@@ -47,7 +49,7 @@ Specifically, I had to write a 2 different scripts for the NPCs, one for the 'te
 game would be more fun if the teams moved together and not just randomly to make it feel more immersive - this way one member will always follow the other.
 The player will be followed by the other blue member.
 
-[FIGHTING GIF]
+![FIGHTING](/git_assets/fight.gif "Fighting showcase")
 
 ### Misc
 Lastly, I've decided that I want to add a main menu to the game with music, so that at the end of each round the player could reset the game and also so
@@ -55,7 +57,7 @@ that the application would feel much more 'game-like', this also made me create 
 The menu included controls and an exit button. I've also tweaked the volume and sounds of the in game effects, added a 'death sound' and played with
 the lighting. Finally I've added some colored smoke effects and UI that marks the winning team at the end of a game.
 
-[MAIN MENU] [WINNING SMOKE]
+![MAIN MENU](/git_assets/mainmenu.gif "Main menu") ![WINNING SMOKE](/git_assets/winsmoke.gif "Blue team wins!")
 
 ## Final Notes
 This project was super fun and helped me sharpen my skills in Unity and C#, I ended up recieving a perfect score for it. There was something really cool
@@ -66,4 +68,4 @@ the process or writing a more in dept documentry of the development as this is j
 After completing the project I gave a couple of people a copy so that they can test it out and I can have their opinion. I've added a few minor updates
 such as gravity, a light machine gun for fun and some NPC script tweaks to optimize the difficulty.
 
-[LMG SHOOTING]
+![LMG SHOOTING](/git_assets/lmg.gif "Guns blazing")
